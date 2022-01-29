@@ -1,5 +1,5 @@
 <?php
-// My Account - User Name
+// My Account - User_Name
 function my_user_name() {
   $current_user = wp_get_current_user();
   return trim( 'Welcome ' . $current_user->user_firstname . ' ' . $current_user->user_lastname );
